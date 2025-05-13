@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: business-card
+    env: python
+    buildCommand: ""
+    startCommand: python3 app.py
+    autoDeploy: true

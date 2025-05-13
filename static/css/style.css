@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.full-screen-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url('../img/bg.jpg') no-repeat center center/cover;
+  color: white;
+  position: relative;
+  margin-bottom: 2.5rem;
+  flex-direction: column; /* Changement ici */
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border: 3px solid white;
+}
+
+h1 {
+  font-size: 3rem; /* plus grand */
+  color: black;
+}
+
+p {
+  font-size: 1.1rem;
+  color: black;
+}
+
+.text-muted {
+  color: #555;
+}
+
+/* Boutons de contact */
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem; /* Légèrement plus grand pour espacer les boutons */
+  width: 100%; /* Ajouté pour garantir que les boutons ne soient pas serrés */
+  justify-content: center; /* Centrer les boutons */
+}
+
+.custom-btn {
+  background-color: #699bce; /* bleu nuit */
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.custom-btn:hover {
+  background-color: #00aaff; /* bleu électrique */
+  color: white;
+}
+
+.text-gris-bleu {
+  color: #1f2933;
+}
+
+.text-gris-moyen {
+  font-size: 1.25rem; /* plus grand pour le titre IT */
+  color: #3e4c59;
+}
+
+.text-gris-clair {
+  color: #327797;
+}
+
+/* Effet machine à écrire */
+#typing-text::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+body.dark-mode h1 {
+  color: #87CEEB;
+}
+
+body.dark-mode h2 {
+  color: #F0F0F0;
+}
+
+body.dark-mode p {
+  color: #B8F1FF;
+}
+
+body.dark-mode .custom-btn {
+  background-color: #add8e6;
+  border-color: #1E90FF;
+  color: #1E90FF;
+}
+
+body.dark-mode .custom-btn:hover {
+  background-color: #2c3e50;
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+/* Interrupteur style */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 28px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 34px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .4s;
+}
+
+.slider::before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:checked + .slider::before {
+  transform: translateX(22px);
+}
