@@ -3,5 +3,5 @@ services:
     name: business-card
     env: python
     buildCommand: ""
-    startCommand: python3 app.py
+    startCommand: gunicorn app:app
     autoDeploy: true
