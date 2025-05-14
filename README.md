@@ -1,12 +1,13 @@
+> Dans le cadre de mon cursus [100DaysOfCode](https://github.com/ChrstphrChevalier/100DaysOfCode-Python)
+
+
 # <p align="center"> ![image](https://github.com/user-attachments/assets/973b6d5f-7202-4b73-a622-498e2766e50b) </p>
 
 ## <p align="center"> Business Card - Carte de Visite Numérique </p>
 
-### <p align="center"> #Day83 </p>
-
 ### Aperçu
 
-**Business Card** est une application web interactive conçue comme une carte de visite numérique, développée dans le cadre du défi de ce jour. Ce projet combine **HTML5**, **CSS3**, **JavaScript**, et **Python Flask** pour offrir une interface moderne, responsive, et visuellement attrayante. Déployée sur **Render** via **GitHub** avec **Gunicorn**, elle intègre un mode **sombre/clair**, une animation de texte **dynamique** (effet machine à écrire), et des liens vers **GitHub**, **LinkedIn**, **Email**, et un **CV**. Découvrez-la ici : [business-card-ix5l.onrender.com](https://business-card-ix5l.onrender.com).
+**Business Card** est une application web interactive conçue comme une carte de visite numérique, développée dans le cadre de mon cursus 100DaysOfCode - #Day83. Ce projet combine **HTML5**, **CSS3**, **JavaScript**, et **Python Flask** pour offrir une interface moderne, responsive, et visuellement attrayante. Déployée sur **Render** via **GitHub** avec **Gunicorn**, elle intègre un mode **sombre/clair**, une animation de texte **dynamique** (effet machine à écrire), et des liens vers **GitHub**, **LinkedIn**, **Email**, et un **CV**. Découvrez-la ici : [business-card-ix5l.onrender.com](https://business-card-ix5l.onrender.com).
 
 ### Compétences Utilisés
 
