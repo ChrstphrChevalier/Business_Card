@@ -8,7 +8,7 @@
 
 **Business Card** est une application web interactive conçue comme une carte de visite numérique, développée dans le cadre du défi de ce jour. Ce projet combine **HTML5**, **CSS3**, **JavaScript**, et **Python Flask** pour offrir une interface moderne, responsive, et visuellement attrayante. Déployée sur **Render** via **GitHub** avec **Gunicorn**, elle intègre un mode **sombre/clair**, une animation de texte **dynamique** (effet machine à écrire), et des liens vers **GitHub**, **LinkedIn**, **Email**, et un **CV**. Découvrez-la ici : [business-card-ix5l.onrender.com](https://business-card-ix5l.onrender.com).
 
-### Compétences utilisés
+### Compétences Utilisés
 
 - **Développement web full-stack** : Conception d’une application avec **Python Flask** pour le backend et **HTML5**, **CSS3**, **JavaScript** pour le frontend.
 - **Interface utilisateur interactive** : Implémentation d’animations **JavaScript** (effet machine à écrire) et gestion du **thème sombre/clair** avec changements dynamiques de couleurs, images, textes et liens.
