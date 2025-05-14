@@ -1,7 +1,6 @@
 # <p align="center"> ![image](https://github.com/user-attachments/assets/973b6d5f-7202-4b73-a622-498e2766e50b) </p>
 
-
-## <p align="center"> Business Card - Portfolio Numérique </p>
+## <p align="center"> Business Card - Carte de Visite Numérique </p>
 
 ### <p align="center"> #Day83 </p>
 
@@ -17,8 +16,8 @@
 - **Gestion de projet** : Organisation du code avec une structure MVC (Modèle-Vue-Contrôleur) et gestion des assets statiques (images, CSS, JS).
 
 ### Mise en Oeuvre
-- **Interface utilisateur** : Conception d’une page d’accueil avec une photo de profil, un texte animé, et des boutons de contact (GitHub, LinkedIn, Email, CV).
-- **Mode sombre/clair** : Implémentation d’un interrupteur pour basculer entre les thèmes, avec des changements dynamiques de couleurs, images, et textes.
+- **Interface utilisateur** : Conception d’une page d’accueil avec une photo de profil, un texte animé, et des boutons de contact (GitHub, LinkedIn, Email, CV, etc...)
+- **Mode sombre/clair** : Implémentation d’un interrupteur pour basculer entre les thèmes, avec des changements dynamiques de couleurs, images, liens et textes.
 - **Animation de texte** : Effet de machine à écrire pour afficher dynamiquement des titres professionnels ou des messages inspirants.
 - **Déploiement** : Hébergement du site sur **Render** avec une configuration optimisée pour **Flask** et **Gunicorn**.
 
